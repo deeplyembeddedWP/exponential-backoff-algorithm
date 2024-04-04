@@ -14,7 +14,7 @@
  * @brief calculates the next backoff retry period
  *
  * @warning delay_backoff_max_s should always have a valid (>0) value,
- * if invalid (<=0), next retry period is based off delay_base_s
+ * if invalid (<=0), subsequent retry intervals are based off delay_base_s
  *
  * @param this points to the context to use
  * @param config configuration to use to calculate the exponential retry period
