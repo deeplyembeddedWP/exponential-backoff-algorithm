@@ -31,7 +31,7 @@ exponential_retry_init(...)  \\ Initializes the context
 exponential_retry_next(...)  \\ Calculates and returns the retry period to be used 
 ```
 > [!WARNING]
->delay_backoff_max_s should always have a valid (>0) value, if invalid (<=0), next retry period is based off delay_base_s.
+>delay_backoff_max_s should always have a valid (>0) value, if invalid (<=0), subsequent retry intervals are based off delay_base_s.
 
 Enjoy :slightly_smiling_face:
 
